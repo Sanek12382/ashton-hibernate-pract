@@ -14,7 +14,7 @@ public class PostService  implements PostServiceInterface {
     @Override
     public List<Post> getAll() {
         Session session = HibernateUtil.getSessionFactory().openSession();
-        return session.createQuery("SELECT * FROM users", Post.class).getResultList();
+        return session.createQuery("SELECT * FROM posts", Post.class).getResultList();
     }
 
     @Override

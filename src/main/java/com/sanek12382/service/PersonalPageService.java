@@ -15,7 +15,7 @@ public class PersonalPageService implements PersonalPageServiceInterface {
     @Override
     public List<PersonalPage> getAll() {
         Session session = HibernateUtil.getSessionFactory().openSession();
-        return session.createQuery("SELECT * FROM users", PersonalPage.class).getResultList();
+        return session.createQuery("SELECT * FROM personal_pages", PersonalPage.class).getResultList();
     }
 
     @Override

@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name="personal_pages", schema = "HM1-base")
+@Table(name="group_chats", schema = "HM1-base")
 @Setter
 @Getter
 @AllArgsConstructor

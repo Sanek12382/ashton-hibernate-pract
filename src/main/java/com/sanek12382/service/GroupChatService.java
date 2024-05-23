@@ -15,7 +15,7 @@ public class GroupChatService  implements GroupChatServiceInterface {
     @Override
     public List<Groupchat> getAll() {
         Session session = HibernateUtil.getSessionFactory().openSession();
-        return session.createQuery("SELECT * FROM users", Groupchat.class).getResultList();
+        return session.createQuery("SELECT * FROM group_chats", Groupchat.class).getResultList();
     }
 
     @Override
