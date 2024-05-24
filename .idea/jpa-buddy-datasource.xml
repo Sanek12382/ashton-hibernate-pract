@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="JpbDataSourceConfig">
-    <data-sources>
-      <data-source id="dec3114d-870d-4ae3-b101-d5748b009358" name="ashton-hibernate-pract" url="jdbc:postgresql://localhost:5432/HM1-base" driverClass="org.postgresql.Driver" />
-    </data-sources>
-  </component>
-</project>
